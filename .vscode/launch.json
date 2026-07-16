@@ -1,0 +1,68 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch 7.1 HTML (file)",
+            "file": "${workspaceFolder}/chakrayantra.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Story1 (file)",
+            "file": "${workspaceFolder}/story1.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Practical-9.1 (file)",
+            "file": "${workspaceFolder}/practical-9.1.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch GPT Standalone (file)",
+            "file": "${workspaceFolder}/gpt.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch 7.1 (Live Server)",
+            "url": "http://127.0.0.1:5500/7.1_yashvalsange_16_division2.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Story1 (Live Server)",
+            "url": "http://127.0.0.1:5500/story1.html",
+            "webRoot": "${workspaceFolder}"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Launch All HTML Files (files)",
+            "configurations": [
+                "Launch 7.1 HTML (file)",
+                "Launch Story1 (file)",
+                "Launch Practical-9.1 (file)",
+                "Launch GPT Standalone (file)"
+            ]
+        },
+        {
+            "name": "Launch All HTML Files (Live Server)",
+            "configurations": [
+                "Launch 7.1 (Live Server)",
+                "Launch Story1 (Live Server)"
+            ]
+        }
+    ]
+}
